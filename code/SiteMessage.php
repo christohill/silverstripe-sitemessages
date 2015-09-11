@@ -61,8 +61,9 @@ class SiteMessage extends DataObject {
 		$fields->addFieldToTab("Root.Main", $test = TextField::create("ButtonText")
 			->setTitle(_t("SiteMessage.LABELBUTTONTEXT", "Button Text"))
 		);
-		$fields->addFieldToTab("Root.Main", TreeDropdownField::create("PageID", "SiteTree")
+		$fields->addFieldToTab("Root.Main", TreeDropdownField::create("PageID")
 			->setTitle(_t("SiteMessage.LABELLINKTO", "Link to"))
+			->setSourceObject("SiteTree")
 		);
 		$fields->addFieldToTab("Root.Main", HTMLEditorField::create("Content")
 			->setTitle(_t("SiteMessage.LABELCONTENT", "Message content"))
