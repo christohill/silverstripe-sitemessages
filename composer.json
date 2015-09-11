@@ -1,0 +1,27 @@
+{
+  "name": "christohill/silverstripe-sitemessages",
+  "description": "Display global messages to visitors of your Silverstripe website.",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/christohill/silverstripe-sitemessages",
+  "keywords": ["silverstripe", "message", "site messages"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Chris Tohill",
+      "email": "hello@visualoverdose.ca"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/christohill/silverstripe-sitemessages/issues"
+  },
+  "require": {
+    "silverstripe/cms": "~3.1.3",
+    "silverstripe/framework": "~3.1.3",
+    "tractorcow/silverstripe-colorpicker": "3.0.*@dev"
+  },
+  "extra": {
+    "installer-name": "site-messages",
+    "screenshots": [
+    ]
+  }
+}
