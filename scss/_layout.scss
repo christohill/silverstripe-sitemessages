@@ -1,0 +1,46 @@
+/**
+ * Description: Layout SCSS file for site-messages module
+ * Author: Chris Tohill
+ * Author Email: hello@visualoverdose.ca
+ */
+.sitemessage {
+
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+	padding: 15px;
+
+	.sitemessage-close {
+
+		text-align: center;
+
+		&:hover {
+
+			opacity: .7;
+
+		}
+
+	}
+
+	.sitemessage-content {
+
+		padding: 0 15px;
+
+	}
+
+	.sitemessage-button {
+
+		margin-left: auto;
+		text-align: right;
+
+		a {
+
+			@include border-radius(3px);
+			padding: 6px 8px;
+			white-space: nowrap;
+
+		}
+
+	}
+
+}
