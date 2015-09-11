@@ -15,7 +15,9 @@ tractorcow/silverstripe-colorpicker: 3.0.*
 * Run /dev/build?flush=all
 
 ##### Composer
-* TBA
+```
+composer require christohill/silverstripe-sitemessages
+```
 
 # Usage
 > Note: accounts that are not "Administrator" will need to have permissions added to their account to use Site Messages.
