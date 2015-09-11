@@ -4,7 +4,6 @@
   "type": "silverstripe-module",
   "homepage": "https://github.com/christohill/silverstripe-sitemessages",
   "keywords": ["silverstripe", "message", "site messages"],
-  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Chris Tohill",
@@ -20,8 +19,10 @@
     "tractorcow/silverstripe-colorpicker": "3.0.*@dev"
   },
   "extra": {
-    "installer-name": "site-messages",
+    "installer-name": "sitemessages",
     "screenshots": [
+      "https://github.com/christohill/silverstripe-sitemessages/blob/master/docs/_images/smpreview_colors.jpg",
+      "https://github.com/christohill/silverstripe-sitemessages/blob/master/docs/_images/smpreview_template.jpg"
     ]
   }
 }
