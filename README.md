@@ -14,6 +14,8 @@ tractorcow/silverstripe-colorpicker: 3.0.*
 * Install the contents of this repository into the root folder of your Silverstripe project
 * Run /dev/build?flush=all
 
+* Add $SiteMessages variable to your template where you'd like your messages to appear
+
 ##### Composer
 ```
 composer require christohill/silverstripe-sitemessages
