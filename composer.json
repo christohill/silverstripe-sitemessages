@@ -14,7 +14,7 @@
     "issues": "https://github.com/christohill/silverstripe-sitemessages/issues"
   },
   "require": {
-    "silverstripe/framework": "~3.1",
+    "silverstripe/framework": "~3.1.*",
     "tractorcow/silverstripe-colorpicker": "*"
   },
   "extra": {
