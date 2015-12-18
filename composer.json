@@ -4,6 +4,7 @@
   "type": "silverstripe-module",
   "homepage": "https://github.com/christohill/silverstripe-sitemessages",
   "keywords": ["silverstripe", "message", "site messages"],
+	"minimum-stability": "dev",
   "authors": [
     {
       "name": "Chris Tohill",
