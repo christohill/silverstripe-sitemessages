@@ -19,6 +19,8 @@ tractorcow/silverstripe-colorpicker: 3.0.*
 composer require christohill/silverstripe-sitemessages
 ```
 
+**Add $SiteMessages variable to your template where you'd like your messages to appear**
+
 # Usage
 > Note: accounts that are not "Administrator" will need to have permissions added to their account to use Site Messages.
 
