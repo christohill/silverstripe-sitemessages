@@ -111,7 +111,7 @@ class SiteMessage extends DataObject {
 				->setConfig('showcalendar', TRUE);
 				
 		$End->setConfig('datavalueformat', 'YYYY-MM-dd HH:mm')
-		->setTitle(_t("SiteMessage.LABELSTART", "End Date"))
+		->setTitle(_t("SiteMessage.LABELEND", "End Date"))
 		->getDateField('End')
 				->setConfig('showcalendar', TRUE);
 
