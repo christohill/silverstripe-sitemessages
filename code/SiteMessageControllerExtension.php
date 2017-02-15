@@ -6,7 +6,7 @@ class SiteMessageControllerExtension extends Extension {
 	 * Before the class is initialised, insert required CSS/Javascript
 	 * @return NULL
 	 */
-	public function onBeforeInit() {
+	public function onAfterInit() {
 
 		Requirements::css(SITEMESSAGES_DIR . '/css/fonts.css');
 		Requirements::css(SITEMESSAGES_DIR . '/css/main.css');
